@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Board Games I Love</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="games-list">
+            <h2>Games List</h2>
+            <div id="games-list-container" class="scrollable-container">
+                <div class="arrow arrow-left" onclick="scrollLeft('games-list-container')">&#10094;</div>
+                <div class="arrow arrow-right" onclick="scrollRight('games-list-container')">&#10095;</div>
+            </div>
+        </section>
+        
+        <!-- Fullscreen overlay -->
+        <div id="fullscreen-overlay">
+            <img id="fullscreen-image" src="" alt="Fullscreen Image">
+        </div>       
+        
+               
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
